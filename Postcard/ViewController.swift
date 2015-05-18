@@ -30,7 +30,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 @IBAction func sendOutput(sender: UIButton) {
-        
+    //this is a new comment
+    
         messageLabel.hidden = false
         messageLabel.text = messageInput.text
         messageLabel.textColor = UIColor.redColor()
